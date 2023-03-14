@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+puts "started seeding the database"
+# db/seeds.rb
+Student.create!(first_name: 'Cheddar', last_name: 'Mazarela', grade: 4)
+Student.create!(first_name: 'Davin', last_name: 'Booker', grade: 4)
+Student.create!(first_name: 'John', last_name: 'Ross', grade: 4)
+
+puts "seeding completed"
